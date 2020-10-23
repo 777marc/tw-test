@@ -590,8 +590,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 @media (min-width: 640px) {
@@ -21642,13 +21642,41 @@ video {
           animation: bounce 1s infinite;
 }
 
+.btn {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  margin: 1.25rem;
+}
+
+.btn-blue {
+  --bg-opacity: 1;
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.btn-blue:hover {
+  --bg-opacity: 1;
+  background-color: #ebf8ff;
+  background-color: rgba(235, 248, 255, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity))
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px) {
@@ -42639,8 +42667,8 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px) {
@@ -63631,8 +63659,8 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px) {
@@ -84623,8 +84651,8 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px) {
